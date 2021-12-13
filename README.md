@@ -1,1 +1,3 @@
-# stock_price_prediction_using_time_series_analysis
+# BajajFin Stock Price Prediction Using Time Series Analysis
+
+This project contains BajajFin stock price dataset from the year 2000-2020, the dataset contains [Date,Symbol,Series,Prev Close,Open,High,Low,Last,Close,VWAP,Volume,Turnover,Trades,Deliverable Volume,%Deliverble] as features. We have preprocess the data and further add rolling_mean and rolling_std with window size of 3 and 7 of few features i.e High, Low, Volume, Turnover, Trades in our dataset and use Auto-Arima model for predicting the stock price. The model did a fairly good job. The accuracy of the model comes out to be Mean Squared Error = 187.6 and Mean Absolute Error = 124.5
